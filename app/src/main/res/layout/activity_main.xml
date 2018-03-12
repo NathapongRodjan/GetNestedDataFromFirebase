@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nathapong.getnesteddatafromfirebase.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Data" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/txtLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latitude" />
+
+        <TextView
+            android:id="@+id/txtLongitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Longitude" />
+
+        <TextView
+            android:id="@+id/txtMenu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu1" />
+
+        <TextView
+            android:id="@+id/txtDescription1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description1" />
+
+        <TextView
+            android:id="@+id/txtImage1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image1" />
+
+        <TextView
+            android:id="@+id/txtPrice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price1" />
+
+        <TextView
+            android:id="@+id/txtMenu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu2" />
+
+        <TextView
+            android:id="@+id/txtDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description2" />
+
+        <TextView
+            android:id="@+id/txtImage2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image2" />
+
+        <TextView
+            android:id="@+id/txtPrice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price2" />
+
+        <Button
+            android:id="@+id/btnGetData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Data" />
+
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Data" />
+
+        <TextView
+            android:id="@+id/txtKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key" />
+
+        <Button
+            android:id="@+id/btnSendData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Data" />
+
+    </LinearLayout>
+</RelativeLayout>
